@@ -13,6 +13,8 @@
 		C91829081AF55DD50060AB19 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C91829071AF55DD50060AB19 /* Images.xcassets */; };
 		C918290B1AF55DD50060AB19 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C91829091AF55DD50060AB19 /* LaunchScreen.xib */; };
 		C91829171AF55DD50060AB19 /* To_do_ListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91829161AF55DD50060AB19 /* To_do_ListTests.swift */; };
+		C91829211AF561230060AB19 /* TaskListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91829201AF561230060AB19 /* TaskListViewController.swift */; };
+		C91829231AF5615F0060AB19 /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91829221AF5615F0060AB19 /* TaskManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		C91829101AF55DD50060AB19 /* To-do ListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "To-do ListTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C91829151AF55DD50060AB19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C91829161AF55DD50060AB19 /* To_do_ListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = To_do_ListTests.swift; sourceTree = "<group>"; };
+		C91829201AF561230060AB19 /* TaskListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskListViewController.swift; sourceTree = "<group>"; };
+		C91829221AF5615F0060AB19 /* TaskManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 				C91829001AF55DD50060AB19 /* AppDelegate.swift */,
 				C91829021AF55DD50060AB19 /* ViewController.swift */,
 				C91829041AF55DD50060AB19 /* Main.storyboard */,
+				C91829201AF561230060AB19 /* TaskListViewController.swift */,
+				C91829221AF5615F0060AB19 /* TaskManager.swift */,
 				C91829071AF55DD50060AB19 /* Images.xcassets */,
 				C91829091AF55DD50060AB19 /* LaunchScreen.xib */,
 				C91828FE1AF55DD50060AB19 /* Supporting Files */,
@@ -214,6 +220,8 @@
 			files = (
 				C91829031AF55DD50060AB19 /* ViewController.swift in Sources */,
 				C91829011AF55DD50060AB19 /* AppDelegate.swift in Sources */,
+				C91829231AF5615F0060AB19 /* TaskManager.swift in Sources */,
+				C91829211AF561230060AB19 /* TaskListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

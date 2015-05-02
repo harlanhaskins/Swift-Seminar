@@ -9,17 +9,20 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var descriptionTextField: UITextField!
+    var taskManager: TaskManager?
 
+    @IBAction func didTapAdd(sender: UIBarButtonItem) {
+        if let taskManager = self.taskManager {
+            taskManager.addTask(self.descriptionTextField.text)
+        }
+        self.dismissViewControllerAnimated(true, completion: nil)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 
 }
 
